@@ -1,0 +1,74 @@
+/*
+*include padding in elements total
+*width and height
+*/
+*{
+	box-sizing: content box,
+}
+body {
+	font-family:Arial; 
+	padding:10px;
+	background:#92abd1;
+}
+.header {
+	background-color: #cfd1d3;
+	padding: 12px;
+	text-align: center;
+}
+
+.header h1 {
+	font-size:58px;
+}
+
+.topnav {
+	overflow:hidden;
+	background-color:#222;
+}
+.topnav a {
+	float: center;
+	display: circle;
+	color: #;2f3847
+	text-align: center;
+	padding:9px 6px;
+	text-decoration:none;
+}
+
+
+.topnav a:hover {
+	background-color:#eee;
+	color:yellow;
+}
+
+
+.leftcolumn {
+	float: left
+	Width: 60%;
+}
+
+.rightcolumn {
+	float:right
+	width: 40%
+}
+
+.fakeimg {
+	background-color: #aaa;
+	padding: 20px;
+	width:100;
+}
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.footer {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 10px;
+}
